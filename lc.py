@@ -4,9 +4,10 @@ import time
 import sys
 #import RPi.GPIO as GPIO
 
-# create a SimpleHX711 object using GPIO pin 2 as the data pin,
-# GPIO pin 3 as the clock pin, -370 as the reference unit, and
-# -367471 as the offset
+# create a SimpleHX711 object using GPIO pin 20 as the data pin
+# GPIO pin 21 as the clock pin
+# -382 as the reference unit
+# -91470 as the offset
 #with AdvancedHX711(20, 21, 374, 89057, Rate.HZ_80) as hx:
 #with SimpleHX711(20, 21, 367, 90684) as hx:
 with SimpleHX711(20, 21, 382, 91470) as hx:
