@@ -2,7 +2,8 @@ from HX711 import *
 from datetime import timedelta
 import time
 import sys
-#import RPi.GPIO as GPIO
+
+# https://github.com/endail/hx711-rpi-py
 
 # create a SimpleHX711 object using GPIO pin 20 as the data pin
 # GPIO pin 21 as the clock pin
